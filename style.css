@@ -1,0 +1,67 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark gray text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 3em;
+    color: #0077b6; /* Deep blue */
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #023e8a; /* Darker blue */
+    margin-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #03045e; /* Navy blue */
+    margin-bottom: 1em;
+}
+
+/* Bold text */
+b {
+    font-weight: bold;
+    color: #d00000; /* Red for emphasis */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto 1.5em;
+    color: #555; /* Softer gray for text */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
